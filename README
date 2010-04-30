@@ -1,5 +1,5 @@
-Node.js binding for MurmurHash2A, a super fast hashing algorithm by Austin Appleby.
-See: http://sites.google.com/site/murmurhash/
+Node.js binding for MurmurHash2A by Austin Appleby. http://sites.google.com/site/murmurhash/ 
+This is a very fast, non-cryptographic hash suitable for general hash-based lookup.
 
 Build with ``node-waf configure build``, and look under build/default folder for the module.
 
