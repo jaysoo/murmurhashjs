@@ -12,4 +12,4 @@ def configure(conf):
 def build(bld):
   obj = bld.new_task_gen('cxx', 'shlib', 'node_addon')
   obj.target = 'murmurhash'
-  obj.source = '_murmurhash.cc MurmurHash2A.cc'
+  obj.source = 'MurmurHash2A.cc'
