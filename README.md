@@ -10,6 +10,7 @@ version (MurmurHash2A) and the incremental version (CMurmurHash2A).
 
 Usage:
 
+```js
   var assert = require('assert')
     , murmurhash = require('./murmurhash');
 
@@ -21,6 +22,7 @@ Usage:
   var chash = hasher.end();
 
   assert.equal(hash, chash);
+```
 
 Also see tests.js
 
